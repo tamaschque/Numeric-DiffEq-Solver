@@ -3,13 +3,9 @@
 This repo contains the source code of most animations from my video on simulating physics Problems. As the series continues this repo will be updates as well.
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=VPEkEuHqNgk">
-    <img src="https://img.youtube.com/vi/VPEkEuHqNgk/hqdefault.jpg" width="300" />
-  </a>
+  <img src="Animations/ThreeBodyProblem_Periodic.gif" alt="Single Pendulum" width="300">
   &nbsp;&nbsp;&nbsp;
-  <a href="https://www.youtube.com/watch?v=TgV1fEjEJi0">
-    <img src="https://img.youtube.com/vi/TgV1fEjEJi0/hqdefault.jpg" width="300" />
-  </a>
+  <img src="Animations/ChaoticLorenzAttractor.gif" alt="Single Pendulum" width="300">
 </p>
 
 ## Watch the Video here:
@@ -71,7 +67,7 @@ class SinglePendulum(Scene):
 ```
 
 <div align="center">
-    <img src="showcase.gif" alt="Voronoi Cells Demo" width="200">
+    <img src="Animations/SinglePendulum.gif" alt="Single Pendulum" width="900">
 </div>
 
 
