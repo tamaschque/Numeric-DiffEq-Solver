@@ -8,7 +8,7 @@ def solve_ivp_rk4(
     t1: float = 1,
     y0: float | Sequence[float] = 0,
     ) -> list:
-    """Uses the explicit Runga-Kutta Method of order 4 for solving the IVP dy/dt = func(t, y). Also accepts vectorized input.
+    """Uses the explicit Runga-Kutta Method of order 4 for solving the IVP dy/dt = func(t, y). Also accepts vectorized input. See https://en.wikipedia.org/wiki/Runge–Kutta_methods.
 
     Parameters
     ----------
@@ -63,7 +63,7 @@ def solve_ivp_rk45(
     r_tol: float = 1e-3,
     dt_max: float = 2,
     ) -> list:
-    """Uses the explicit Runga-Kutta 4(5) Method with integrated stepsize control for solving the IVP dy/dt = func(t, y). Also accepts vectorized input.
+    """Uses the explicit Runga-Kutta 4(5) Method with integrated stepsize control for solving the IVP dy/dt = func(t, y). Also accepts vectorized input. See https://en.wikipedia.org/wiki/Runge–Kutta–Fehlberg_method.
 
     Parameters
     ----------
