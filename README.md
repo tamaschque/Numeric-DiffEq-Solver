@@ -24,6 +24,8 @@ The methods covered in the video are:
     - Runge-Kutta 4
     - Runge-Kutta 4(5)
 
+"Interactive" versions of these solvers (except RK45) have now also been added. These just return a the y-value at the and instead of the complete list. Meant to be used for interactive simulations such as shown in the Video. 
+
 As a disclaimer: The focus of these implementations are readability over efficiency. For actual usage you should use the solvers of the scipy library.
 
 ## Animations
@@ -70,14 +72,22 @@ class SinglePendulum(Scene):
     <img src="Animations/SinglePendulum.gif" alt="Single Pendulum" width="900">
 </div>
 
+## Interactive Simulations
+In the Folder *Interactive Simulations* the source code for the interactive simulations of
+
+ * Springed Double Pendulum (can be pushed)
+ * Charged Double Pendulum (interacts with charged mouse cursor)
+ * 3 Body Problem (mouse cursor controlls one of the bodies)
+ 
+have been added. You will need to install the pyglet library to run these files.
 
 ## Helpful Links
 Here are some of the websites, videos, ... that helped me a lot during the making of this video.
  - Quick summary of numerically solving ODEs - [Link](https://www.youtube.com/watch?v=A1JnGhaVJsQ)
- - Explanation of Runge-Kutta Method of Order 2 - [Link](https://www.youtube.com/watch?v=bSs2Sj5Qi8I)+
+ - Explanation of Runge-Kutta Method of Order 2 - [Link](https://www.youtube.com/watch?v=bSs2Sj5Qi8I)
  - Inital values for periodic solutions of the three body problem - [Link](https://www.youtube.com/watch?v=8_RRZcqBEAc)
 
-The Wikipedia links of the used Method can be found in the source code
+The Wikipedia links of the used Method can be found in the source code.
 
  ## Youtube Channels:
   - ## [tamaschque](https://www.youtube.com/@tamaschque) (Main)

@@ -1,8 +1,8 @@
 from collections.abc import Iterable
 
-from numeric_de_solver.euler_method import *
-from numeric_de_solver.runge_kutta import *
-from numeric_de_solver.caching import *
+from euler_method import *
+from runge_kutta import *
+from caching import *
 
 solvers = {
     "euler" : solve_ivp_euler,
