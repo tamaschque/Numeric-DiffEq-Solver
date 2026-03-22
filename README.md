@@ -8,11 +8,14 @@ This repo contains the source code of most animations from my video on simulatin
   <img src="Animations/ChaoticLorenzAttractor.gif" alt="Single Pendulum" width="300">
 </p>
 
-## Watch the Video here:
+## Watch the Videos here:
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=M_OOwhA2fY8">
+    <a href="https://www.youtube.com/watch?v=M_OOwhA2fY8">
     <img src="https://img.youtube.com/vi/M_OOwhA2fY8/hqdefault.jpg" width="300" />
-  </a>
+    </a>
+    <a href="https://www.youtube.com/watch?v=_apHxVJU61g">
+    <img src="https://img.youtube.com/vi/_apHxVJU61g/hqdefault.jpg" width="300" />
+    </a>
 </p>
 
 ## Solvers
