@@ -7,6 +7,10 @@ class ComplexEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, (complex, np.complexfloating)):
             return {"__complex__": True, "real": obj.real, "imag": obj.imag}
+
+        if isinstance(obj, np.ndarray): # Handle numpy arrays
+            return obj.tolist()
+
         return super().default(obj)
 
 
@@ -43,7 +47,7 @@ def cache(filename: str, t_values=None, y_values=None, **options):
         json.dump(data, file, cls=ComplexEncoder)
 
 
-def load_chached_result(filename: str, *options: str):
+def load_cached_result(filename: str, *options: str):
     filename = ensure_json_ext(filename)
 
     with open(filename, "r") as file:
@@ -76,11 +80,14 @@ def matching_cache_options(filename: str, **params):
         options = data["options"]
 
         for key, value in params.items():
-            if key in options.keys():
-                if value != options[key]:
+            
+            if key not in options.keys():
+                return False
+            
+            try:
+                if not np.allclose(value,options[key]):
                     return False
-
-            else:
+            except ValueError:
                 return False
 
     return True

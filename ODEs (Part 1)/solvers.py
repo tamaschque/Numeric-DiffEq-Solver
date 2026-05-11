@@ -82,7 +82,7 @@ def solve_ivp(
     if check_cache and cache_location:
         if matching_cache_options(cache_location, **cache_options):
             print("Matching Cache")
-            return load_chached_result(cache_location)
+            return load_cached_result(cache_location)
 
     solver = solvers[method]
     t_values, y_values = solver(func, y0=y0, t0=t0, t1=t1, dt=dt, **kwargs)
