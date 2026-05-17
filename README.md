@@ -11,10 +11,13 @@ This repo contains the source code of most animations from my video on simulatin
 ## Watch the Videos here:
 <p align="center">
     <a href="https://www.youtube.com/watch?v=M_OOwhA2fY8">
-    <img src="https://img.youtube.com/vi/M_OOwhA2fY8/hqdefault.jpg" width="300" />
+    <img src="https://img.youtube.com/vi/M_OOwhA2fY8/hqdefault.jpg" width="225" />
     </a>
     <a href="https://www.youtube.com/watch?v=_apHxVJU61g">
-    <img src="https://img.youtube.com/vi/_apHxVJU61g/hqdefault.jpg" width="300" />
+    <img src="https://img.youtube.com/vi/_apHxVJU61g/hqdefault.jpg" width="225" />
+    </a>
+    <a href="https://www.youtube.com/watch?v=oHIKZZI08AA">
+    <img src="https://img.youtube.com/vi/oHIKZZI08AA/hqdefault.jpg" width="225" />
     </a>
 </p>
 
